@@ -13,6 +13,7 @@ def json():
         "Shubham":100,
         "Reena":67
     }
-    return jsonify(marks)
+    values =  [1, marks, 67]
+    return jsonify(values)
 
 app.run(debug=True)
